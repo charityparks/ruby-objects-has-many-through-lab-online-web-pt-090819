@@ -1,4 +1,4 @@
-3equire 'pry'
+require 'pry'
 class Artist 
   
   @@all = []
