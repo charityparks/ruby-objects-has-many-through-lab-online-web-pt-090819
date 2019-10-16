@@ -1,4 +1,3 @@
-
 class Patient
     attr_accessor :name
 
@@ -24,6 +23,7 @@ class Patient
     def doctors
         appointments.collect{|appointment| appointment.doctor}
     end
+  end
 
 
 
